@@ -1,0 +1,57 @@
+@import "./node_modules/bootstrap/scss/bootstrap";
+
+$dark: black;
+
+.form-control {
+   background-color: $dark;   
+   border: none;
+   border-bottom: solid gray;
+   border-radius: 0;
+   &:focus {
+      color: white;
+      background-color: $dark;   
+      border: none;
+   }:active {
+      background-color: $dark;   
+      border: none;
+   }
+   &:hover {
+      background-color: $dark;   
+   }
+   &::placeholder {
+      color: white;
+   }
+}
+
+.bg-dark {
+   background-color: black!important;
+}
+
+.bg-gray {
+   background-color: rgb(32, 32, 32)!important;
+}
+
+.text-red {
+   color: red;
+}
+
+.text-gray {
+   color: gray;
+}
+
+.button {
+   background-color: $dark;
+   border: solid white;
+   color: white;
+   width: 100px;
+   height: 100px;
+   border-radius: 50%;
+}
+
+.contacto {
+   font-size: 80px;
+   font-weight: 700;
+   color: white;
+   opacity: 0.7;
+   transform: translate(-50%, -30%);
+}
